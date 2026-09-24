@@ -407,3 +407,8 @@ button:active,
   outline: none;
   box-shadow: none;
 }
+@media (max-width: 600px){
+  .scene{
+    min-height:auto;
+  }
+}
