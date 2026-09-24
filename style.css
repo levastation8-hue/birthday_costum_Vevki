@@ -407,6 +407,41 @@ button:active,
   outline: none;
   box-shadow: none;
 }
+/* =========================
+   MOBILE - RAPATKAN SCENE
+========================= */
+@media (max-width: 600px){
+
+  .scene{
+    min-height: auto;
+    padding: 28px 20px 45px;
+  }
+
+  .scene h2{
+    margin-bottom: 28px;
+  }
+
+  .scene .eyebrow{
+    margin-bottom: 10px;
+  }
+
+  /* Jarak area amplop */
+  .envelope-wrap{
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  /* Tombol lebih dekat ke amplop */
+  #openMessageBtn,
+  .primary-btn{
+    margin-top: 10px;
+  }
+
+  /* Kurangi ruang kosong di bawah */
+  .scene > *:last-child{
+    margin-bottom: 0;
+  }
+}
 @media (max-width: 600px){
   .scene{
     min-height:auto;
